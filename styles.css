@@ -1,6 +1,12 @@
 body {
-  width: 80%;
+  width: 600px;
   margin: 0 auto;
+  font-size: 14px;
+}
+
+textarea {
+  margin-bottom: 15px;
+  width: 597px;
 }
 
 h1 {
@@ -8,24 +14,27 @@ h1 {
 }
 
 input {
-  vertical-align: top; 
+  vertical-align: middle; 
 }
 
 select {  
-  padding: 6px 10px;
-  width: 140px;
+  padding: 8px 10px;
+  width: 160px;
   background-color: transparent;
   border: 1px solid #00a191;
 }
 
 .button {  
   padding: 10px 15px;
-  width: 661px;
+  width: 235px;
   background-color: #00a191;
   border: none;
-  text-align: center;
+  text-align: center;  
+  float:right;
+  margin-right: 0px;
 }
 
 .button:hover{
-        background: #66c0b7;
+  background: #66c0b7;
 }
+
