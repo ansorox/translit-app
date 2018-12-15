@@ -1,0 +1,31 @@
+body {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1 {
+  padding: 0.5em 0;
+}
+
+input {
+  vertical-align: top; 
+}
+
+select {  
+  padding: 6px 10px;
+  width: 140px;
+  background-color: transparent;
+  border: 1px solid #00a191;
+}
+
+.button {  
+  padding: 10px 15px;
+  width: 661px;
+  background-color: #00a191;
+  border: none;
+  text-align: center;
+}
+
+.button:hover{
+        background: #66c0b7;
+}

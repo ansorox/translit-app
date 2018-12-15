@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="UTF-8">
+	<title>Transliterator</title>
+	<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+</head>
+<body>
+  <h1>Abaza transliterator</h1>
+	<div id='main'>
+    <form>
+      <p>Text:</p><textarea id="abaza_text" type="textarea" rows="10" cols="80" placeholder="input text in Abaza"></textarea>
+      <input id="punct" type="checkbox">Remove punctuation<br>
+      <input id="tab" type="checkbox">Replace spaces with tabs<br>      
+      <input id="stress" type="checkbox">Don't show stress<br>
+      <p>Transliteration system:
+      <select id="trans_sys">
+        <option value="fieldwork">Fieldwork</option>
+        <option value="ipa">IPA</option>
+      </select>
+      </p>
+    </form>
+    <button type="button" class="button" id="transliterate">Transliterate</button>
+    </div>
+    <!--transliterator end-->
+    <div id="output">
+	   <textarea rows="10" cols="80" id="tip" name="output" spellcheck="false"></textarea>
+    </div>
+    <script type="text/javascript" src="aba-trans.js"></script>
+</body>
+</html>
