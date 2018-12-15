@@ -323,7 +323,7 @@ function aba2ipa(value) {
 
 // punctuation
 function rm_punct(value) {
-	value = value.replace(/[!"@#$%^/\&_='*+,.:;<>?\\{}|~—]/g,"")
+	value = value.replace(/[!")(@#$\[\]%^/\&_=—'*+,.:;<>»«?\\{}|~—]/g,"")
   return value
 }
 

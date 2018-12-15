@@ -16,6 +16,10 @@ input {
   vertical-align: middle; 
 }
 
+textarea {
+  line-height: 1.6;
+}
+
 select {  
   padding: 8px 10px;
   width: 160px;
@@ -25,7 +29,8 @@ select {
 
 .button {  
   padding: 10px 15px;
-  width: 330px;
+  /* width: 330px; */
+  width: 55%;
   background-color: #00a191;
   border: none;
   text-align: center;  
