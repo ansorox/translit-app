@@ -1,7 +1,6 @@
 body {
   width: 600px;
   margin: 0 auto;
-  font-size: 14px;
 }
 
 textarea {
@@ -26,11 +25,10 @@ select {
 
 .button {  
   padding: 10px 15px;
-  width: 235px;
+  width: 330px;
   background-color: #00a191;
   border: none;
   text-align: center;  
-  float:right;
   margin-right: 0px;
 }
 
