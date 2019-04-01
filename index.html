@@ -8,21 +8,28 @@
 </head>
 <body>
   <h1>Abaza transliterator</h1>
-	<div id='main'>
     <form>
-      <p></p><textarea id="abaza_text" type="textarea" rows="7" cols="80" placeholder="input text in Abaza" spellcheck="false"></textarea><br>
-	  <input id="punct" type="checkbox">Remove punctuation<br>
-      <input id="tab" type="checkbox">Replace spaces with tabs<br>      
-      <input id="stress" type="checkbox">Don't show stress<br>
-      <p>Transliteration system:
-      <select id="trans_sys">
-        <option value="fieldwork">Fieldwork</option>
-        <option value="ipa">IPA</option>
-      </select>
+      <textarea id="abaza_text" type="textarea" rows="7" cols="80" placeholder="input text in Abaza" spellcheck="false"></textarea><br>
+	  <div id='main'>
+	  <label class="option">Remove punctuation
+	       <input id="punct" type="checkbox"><span class="checkmark"></span>
+	  </label><br> 
+	  <label class="option">Replace spaces with tabs
+	      <input id="tab" type="checkbox"><span class="checkmark"></span>
+	  </label><br> 
+      <label class="option">Don't show stress
+          <input id="stress" type="checkbox"><span class="checkmark"></span>
+      </label><br>Transliteration system: 
+		<select id="trans_sys">
+			<option class="system" value="fieldwork">Fieldwork</option>
+			<option class="system" value="ipa">IPA</option>
+		</select>	  
+		</div>
     </form>
-	<button type="button" class="button" id="transliterate">Transliterate</button>  </p>
+    <br>
+	<button type="button" class="button" id="transliterate">Transliterate</button>
+	
   
-    </div>
     <!--transliterator end-->
     <div id="output">
 	   <textarea rows="7" cols="80" id="tip" name="output" spellcheck="false"></textarea>
