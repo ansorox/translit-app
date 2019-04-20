@@ -49,7 +49,7 @@ select {
   margin-top: 10px;
   color: white;
   font-family: inherit;
-  font-size: 0.9em;
+  font-size: 1em;
 
 }
 
@@ -125,4 +125,15 @@ select {
 
 #main {
   padding-left: 20px;
+}
+
+.git {
+  padding-bottom: 30px;
+  text-decoration: none; 
+  color: black;
+}
+
+.git:hover {
+  color: dark-gray; 
+  font-weight: bold;
 }
