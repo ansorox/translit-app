@@ -1,10 +1,5 @@
- // This file was created by Anna Sorokina on 8.12.2018
-   // It is based on similar convertion file by George Moroz (16.06.2017).
-   // Conversion Type = Legacy_to_from_Unicode
-   // TO DO: to add an option of omitting punctuation and stress + css maybe separate functions
-
-
-
+// The file was created by Anna Sorokina on 8.12.2018
+// It is based on similar convertion map-file by George Moroz (16.06.2017).
 
 function transliterate() {
   var input_text = document.getElementById("abaza_text").value;  
