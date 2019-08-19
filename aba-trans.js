@@ -1,5 +1,5 @@
-// The file was created by Anna Sorokina on 8.12.2018
-// It is based on similar convertion map-file by George Moroz (16.06.2017).
+// The file was created by Anna Sorokina on 19.08.2019
+// It is based on a similar convertion map-file by George Moroz (last update 19.08.2019).
 
 function transliterate() {
   var input_text = document.getElementById("abaza_text").value;  
@@ -20,14 +20,12 @@ function transliterate() {
 		document.getElementById("output").style.display = "block";
 		document.getElementById("tip").innerHTML = result_ipa;
 	}
-  
 }
+
 
 document.getElementById("transliterate").onclick = function() {
   transliterate();
 };
-
-
 
 // from abaza cyrillic script to fieldwork notation
 function aba2field(value) {
@@ -37,8 +35,8 @@ function aba2field(value) {
 	value = value.replace(/А/g,"á")
 	value = value.replace(/е/g,"aj")
 	value = value.replace(/Е/g,"áj")
-	value = value.replace(/и/g,"jəj")
-	value = value.replace(/И/g,"jə́j")
+	value = value.replace(/и/g,"əj")
+	value = value.replace(/И/g,"ə́j")
 	value = value.replace(/о/g,"aw")
 	value = value.replace(/О/g,"áw")
 	value = value.replace(/ы/g,"ə")
@@ -49,7 +47,7 @@ function aba2field(value) {
 	value = value.replace(/Ю/g,"jú")
 	value = value.replace(/я/g,"ja")
 	value = value.replace(/Я/g,"já")
-	value = value.replace(/у/g,"w")
+	value = value.replace(/у/g,"əw")
 	value = value.replace(/У/g,"ə́w")
 	
 	value = value.toLowerCase()
