@@ -1,16 +1,20 @@
 body {
-  width: 600px;
+  width: 700px;
   margin: 0 auto;
   font-family: Lato, sans-serif;
 }
 
 textarea {
   margin-bottom: 15px;
-  width: 597px;
+  width: 700px;
   font-size: 1em;
   padding-left: 20px;
   padding-top: 10px;
   font-family: inherit;
+  border-color: #808080;
+  border-radius: 3px;
+  outline: none;
+  resize: vertical;
 }
 
 h1 {
@@ -24,7 +28,12 @@ input {
 }
 
 textarea {
-  line-height: 1.6;
+  line-height: 1.7;
+}
+
+#output textarea {
+  border-radius: 0px 0px 5px 5px;
+  border-top: none;
 }
 
 select {  
@@ -37,12 +46,14 @@ select {
   border: 1px solid #00a191;
   font-family: inherit;
   font-size: 0.9em;
+  border-radius: 3px;
+  
 }
 
 .button {  
   padding: 10px 15px;
   width: 103.5%;
-  background-color: #00a191;
+  background-color: #c2183a;
   border: none;
   text-align: center;  
   margin-right: 0px;
@@ -50,11 +61,12 @@ select {
   color: white;
   font-family: inherit;
   font-size: 1em;
+  border-radius: 5px 5px 0px 0px;
 
 }
 
 .button:hover{
-  background: #66c0b7;
+  background: #9b132e;
 }
 
 .option {
@@ -95,7 +107,7 @@ select {
 
 /* When the checkbox is checked, add background */
 .option input:checked ~ .checkmark {
-  background-color: #00a191;
+  background-color: #c2183a;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
