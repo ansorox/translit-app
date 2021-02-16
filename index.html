@@ -7,9 +7,9 @@
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Bzhedug Adyghe transliterator</h1>
+  <h1>Abaza transliterator</h1>
     <form>
-      <textarea id="inp_text" type="textarea" rows="8" cols="80" placeholder="input text in Bzhedug Adyghe" spellcheck="false"></textarea><br>
+      <textarea id="abaza_text" type="textarea" rows="7" cols="80" placeholder="input text in Abaza" spellcheck="false"></textarea><br>
 	  <div id='main'>
 	  <label class="option">Remove punctuation
 	       <input id="punct" type="checkbox"><span class="checkmark"></span>
@@ -17,14 +17,13 @@
 	  <label class="option">Replace spaces with tabs
 	      <input id="tab" type="checkbox"><span class="checkmark"></span>
 	  </label><br> 
-      <!-- <label class="option">Don't show stress
+      <label class="option">Don't show stress
           <input id="stress" type="checkbox"><span class="checkmark"></span>
-      </label> -->
-      <!-- <br>Transliteration system: 
+      </label><br>Transliteration system: 
 		<select id="trans_sys">
 			<option class="system" value="fieldwork">Fieldwork</option>
 			<option class="system" value="ipa">IPA</option>
-		</select> -->	  
+		</select>	  
 		</div>
     </form>
     <br>
@@ -33,9 +32,9 @@
   
     <!--transliterator end-->
     <div id="output">
-	   <textarea rows="8" cols="80" id="tip" name="output" spellcheck="false"></textarea>
+	   <textarea rows="7" cols="80" id="tip" name="output" spellcheck="false"></textarea>
     </div>
-    <p align="center"><a class="git" href="#">Github</a></p>
-    <script type="text/javascript" src="bzhe-trans.js"></script>
+    <p align="center"><a class="git" href="https://github.com/ansorox/translit-app">Github</a></p>
+    <script type="text/javascript" src="aba-trans.js"></script>
 </body>
 </html>
